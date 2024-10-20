@@ -1,0 +1,154 @@
+html {
+    font-size: 16px;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #e5eff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 80rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+}
+
+.join-community {
+    background-color: white;
+    padding: 2.5rem;
+}
+
+.join-community-title1 {
+    color: #2ab2af;
+    margin: 0 0 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+.join-community-title2 {
+    color: #c0df34;
+    margin: 0 0 1rem 0;
+    font-size: 1.25rem;
+}
+
+.join-community-paragraph {
+    color: #98a6bd;
+    line-height: 1.5;
+    margin: 0;
+    font-size: 1rem;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.subscription, .why-us {
+    width: 50%;
+    padding: 2.5rem;
+}
+
+.subscription {
+    background-color: #2ab2af;
+    color: white;
+}
+
+.subscription-title {
+    margin: 0 0 1.125rem 0;
+    font-size: 1.25rem;
+}
+
+.subscription-price {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0 0 0.5rem 0;
+}
+
+.subscription-price span {
+    font-size: 1rem;
+    font-weight: normal;
+    opacity: 0.7;
+}
+
+.subscription-description {
+    margin: 0 0 1.6rem 0;
+    font-size: 1rem;
+}
+
+.subscription-button {
+    background-color: #c0df34;
+    color: white;
+    border: none;
+    padding: 1rem 0;
+    width: 100%;
+    border-radius: 0.3rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscription-button:hover {
+    background-color: #b1cf2e;
+}
+
+.why-us {
+    background-color: #4abebd;
+    color: white;
+}
+
+.why-us-title {
+    margin: 0 0 1.25rem 0;
+    font-size: 1.25rem;
+}
+
+.why-us-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    opacity: 0.8;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+
+@media (max-width: 40rem) {
+    .container {
+        width: 90%;
+    }
+    
+    .wrapper {
+        flex-direction: column;
+    }
+    
+    .subscription, .why-us {
+        width: 100%;
+    }
+}
+
+
+    @media (max-width: 640px) {
+        .container {
+            width: 90%;
+            max-width: 640px;
+            margin: 0 auto;
+        }
+    }
+
+        @media (max-width: 640px) and (min-width: 420px ) {
+        .subscription-button {
+            width: 85%;
+        }
+    }
+
+        @media (max-width: 420px) {
+            .subscription-button {
+                width: 75%;
+            }
+        }
+    
