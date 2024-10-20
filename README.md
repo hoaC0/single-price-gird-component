@@ -22,7 +22,6 @@ inspiration:
 
 - grid layout
 - Responsive design that works well on desktop and mobile devices
-- Interactive project cards with hover effect
 
 ## Technologies used
 
