@@ -13,6 +13,7 @@ this excercise started on the 19nd of September 2024
 This exercise serves as practice. In this exercise i rebuilt a single price page.
 
 inspiration:
+
 ![image](https://github.com/user-attachments/assets/a3faae58-120c-4f47-8f6f-ab49becd6a3c)
 
 
