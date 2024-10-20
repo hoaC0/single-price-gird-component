@@ -41,4 +41,3 @@ This website is deployed using GitHub Pages. To set up a similar project:
 
 email: hoachau1010@gmail.com
 
-Project Link: https://hoachau.de
